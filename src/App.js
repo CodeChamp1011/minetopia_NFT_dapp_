@@ -15,9 +15,11 @@ function App() {
 			window.removeEventListener('resize', changeWidth)
 		}
 	}, []);
-	"3-2-2015"
-	const LEFT_DAYS_IN_MS = 9 * 24 * 60 * 60 * 1000;
+
+	const LEFT_DAYS_IN_MS = new Date("8-22-2022").getTime()-new Date().getTime();
   	const NOW_IN_MS = new Date().getTime();
+	console.log ("left", LEFT_DAYS_IN_MS)
+	console.log("now", NOW_IN_MS)
   	const dateTimeAfterThreeDays = NOW_IN_MS + LEFT_DAYS_IN_MS;
 
 	const toggleNav = () => {
