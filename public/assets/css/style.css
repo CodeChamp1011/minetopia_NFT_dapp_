@@ -1,0 +1,1364 @@
+html {
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: 'megrimfont';
+    src: url('../fonts/GABRWFFR.TTF');
+}
+
+.megrim-font {
+    font-family: 'megrimfont';
+}
+
+@font-face {
+    font-family: 'railwayfont';
+    src: url('../fonts/Raleway-ExtraBold.ttf');
+}
+
+.railway-font {
+    font-family: 'railwayfont';
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-VariableFont_wght.ttf');
+}
+
+.rubik-font {
+    font-family: 'Rubik';
+    font-family: 700;
+}
+
+@font-face {
+    font-family: 'headlinefont';
+    src: url('../fonts/seguibl.ttf');
+}
+
+.headline-font {
+    font-family: 'headlinefont'!important;
+}
+
+@font-face {
+    font-family: 'comicfont';
+    src: url('../fonts/LDFComicSansBold.ttf');
+}
+
+body {
+    background-color: #000;
+    text-align: justify;
+    /* background: url(../images/background1.jpg); */
+    /* background-size: 100%; */
+}
+
+.main-grey {
+    color: #e5e5e5;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.color-white {
+    color: #fff!important;
+}
+
+.menu-btn {
+    position: absolute;
+    right: 35px;
+    top: 130px;
+    text-decoration: none;
+    color: #46b104!important;
+    font-family: headlinefont;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+.social-block {
+    position: absolute;
+    right: 225px;
+    top: 65px;
+    text-decoration: none;
+    color: #46b104!important;
+    font-family: headlinefont;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.hero-section {
+    margin-top: -30px;
+}
+
+.navbar_right {
+    float: right;
+    line-height: 150px;
+}
+
+.logo-image {
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.pt-30 {
+    padding-top: 30px!important;
+}
+
+nav {
+    width: 100%;
+}
+
+.nav-item {
+    color: #46b104;
+}
+
+.nav-item:hover {
+    color: #337e04;
+}
+
+.list {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -100px;
+    padding-left: 0;
+    margin-left: 30px;
+}
+.items {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #f1f1f1;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "railwayfont";
+}
+
+.btn {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    padding: 5px;
+    color: #000;
+    font-size: 18px;
+}
+
+.about-section {
+    padding-bottom: 50px;
+    /* background: url(../images/background5.jpg); */
+    background-size: 100% 100%;
+    color: yellow!important;
+}
+
+.team-section {
+    /* background: url(../images/background2.jpg); */
+    background-size: 100% 100%;
+}
+
+.content-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    font-size: 30px;
+    margin-right: 20px;
+    color: #46b104!important;
+}
+
+.social-links {
+    /* background-color: #333; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.fa-link {
+    font-size: 45px;
+}
+
+/* Count down timer css start */
+.expired-notice {
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid #ebebeb;
+    border-radius: 0.25rem;
+    margin: 0.5rem;
+  }
+  
+  .expired-notice > span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .expired-notice > p {
+    font-size: 1.5rem;
+  }
+  
+  .show-counter {
+    padding: 0.5rem;
+  }
+  
+  .show-counter .countdown-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color: #46b104;
+  }
+  
+  .show-counter .countdown {
+    line-height: 1.25rem;
+    padding: 0 0.75rem 0 0.75rem;
+    font-size: 30px;
+    color: yellow;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .show-counter .countdown.danger {
+    color: #ff0000;
+  }
+  
+  .show-counter .countdown > p {
+    margin: 0;
+  }
+  
+  .show-counter .countdown > span {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  /* count down timer end */
+
+/* Navbar  BEGIN */
+
+.navbar_logo {
+    margin-left: 20px;
+    font-family: 'megrimfont';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    color: #46b104;
+}
+
+.game-section {
+    padding: 0 4vw;
+}
+
+.game-title {
+    font-size: 3vw;
+    color: #46b104;
+}
+
+.member-picture {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.mint-button-block {
+    margin-top: 5%;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal  {
+   bottom: -5px!important;
+}
+
+.swiper-pagination-bullet {
+    background: #999;
+}
+
+.swiper-pagination-bullet-active {
+    background: #46b104!important;
+}
+
+.no-display {
+    display: none!important;
+}
+
+.connect-button {
+    background-color: #46b104;
+    color: #fff;  
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    border: 1px solid #46b104!important;
+    border-radius: 50px;
+    font-size: 18px;
+    line-height: 35px;
+    padding: 5px 25px;
+    display: inline-block;
+    transition: all 0.3s;
+    z-index: 1;
+    margin-top: 55px;
+    margin-right: 15px;
+}
+
+.connect-button:hover {
+    background-color: #204e03;
+    color: #fff;
+}
+
+/* button animation */
+
+.navbar_button:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.navbar_button:hover {
+    color: #fff;
+}
+
+.navbar_button:hover:before {
+    width: 100%;
+}
+
+.btn {
+    border: solid black 1px;
+    outline: none;
+}
+
+.nav_menu {
+    display: none;
+}
+
+.logo-dragon {
+    width: 23%;
+}
+
+.width-100 {
+    width: 100%!important;
+}
+
+.section_title{
+    font-family: 'railwayfont';
+    margin-top: 40px;
+    padding-top: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 55px;
+    color: #46b104;
+}
+
+.img-thumbnail {
+    background-color: #000;
+    border-color: #000;
+}
+
+.swiper-slide {
+    background-color: transparent!important;
+}
+
+.coolbeez-content {
+    padding: 0 6vw;
+}
+
+.line-height-12 {
+    line-height: 1.2!important;
+}
+
+.line-height-15 {
+    line-height: 1.5!important;
+}
+
+.line-height-18 {
+    line-height: 1.8!important;
+}
+
+
+
+/* main  Begin */
+
+.font_default {
+    color: #fff;
+    font-size: 30px;
+    line-height: 47px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.font_undefault {
+    color: #c1c1c1;
+    font-size: 30px;
+    line-height: 47px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.font_bgdefault {
+    font-family: 'headline-font';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 50px;
+    /* or 100% */
+    color: #c1c1c1;
+}
+
+.font_bgundefault {
+    font-family: 'megrimfont';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 52px;
+    color: #9c0bf0;
+}
+
+.font_general {
+    color: #fff;
+    font-size: 24px;
+    line-height: 35px;
+    /* font-family: 'Rubik'; */
+    font-style: normal;
+    font-weight: normal;
+}
+
+.mint_button {
+    /* MINT */
+    padding: 15px 40px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 30px;
+    border-radius: 50px;
+    /* identical to box height, or 100% */
+    color: #FFFFFF;
+    background-color: #46b104;
+    border: 1px solid #46b104;
+}
+
+.mint_button:hover {
+    background-color: #204e03;
+    color: #fff;
+}
+
+.footer-font {
+    font-weight: 400 !important;
+    font-size: 30px;
+}
+
+.add-padding {
+    padding-right: 12% !important;
+    padding-left: 12% !important;
+}
+
+.white_font_color {
+    color: #fff;
+}
+
+.member_name {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.member_desc {
+    font-size: 26px;
+}
+
+.team-section {
+    padding-bottom: 50px;
+}
+
+.team_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter {
+    color: #46b104;
+}
+
+.off-chain {
+    margin-top: -15px;
+}
+
+.panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    background-color: #000;
+
+}
+
+.tokenomic-paragraph {
+    margin-top: 25px;
+}
+
+.panel p {
+    color: white;
+    font-size: 22px !important;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.connected-wallet {
+    background-color: #46b104;
+    color: #fff;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 46px;
+    padding: 10px 25px;
+    border: solid black 1px;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.team-image {
+    padding: 0%;
+}
+
+.top_data {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+    align-items: center;
+    color: #000;
+}
+
+.sub-trans {
+    width: 300px;
+}
+
+.top_title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #e5e5e5;
+    text-transform: uppercase;
+}
+
+.swiper-wrapper {
+    align-items: center;
+}
+
+.navbar_button p {
+    font-size: 2.2vw;
+    margin-bottom: 0;
+}
+
+.roadmap_right_content {
+    padding-top: 50px;
+    font-size: 20px;
+    color: #e5e5e5!important;
+}
+
+.footer-section {
+    margin-top: 80px;
+    padding: 3% 0;
+    background-color: #000;
+}
+
+.copyright-section {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+/* button animation */
+@media only screen and (min-width:1366px) {
+    .join-discord-title {
+        font-size: 56px!important;
+    }
+    .join-discord-content {
+        font-size: 27px!important;
+    }
+    .game-title {
+        font-size: 35px;
+    }
+    .main-container {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    .join-button {
+        font-size: 38px!important;
+    }
+    .team-caption{
+        font-size: 24px!important;
+    }
+    .team-desc {
+        font-size: 18px!important;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    .social-block {
+        position: absolute;
+        right: 35px;
+        top: 131px;
+        text-decoration: none;
+        color: #46b104!important;
+        font-family: headlinefont;
+        font-size: 28px;
+        cursor: pointer;
+    }
+    .navbar_logo {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .navbar_button {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .top_title_num {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .dot {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 13px rgba(255, 255, 255, 0.53);
+        /* padding: 3px 13px; */
+        border-radius: 50%;
+    }
+    .font_default {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .font_undefault {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .font_bgdefault {
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .font_bgundefault {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .font_general {
+        font-size: 24px;
+        line-height: 25px;
+    }
+    .mint_button {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .section_title{
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    .navbar_logo {
+        font-size: 46px;
+        line-height: 46px;
+    }
+    .font_general {
+        font-size: 22px;
+        line-height: 18px;
+    }
+
+    .member_desc {
+        font-size: 24px;
+    }
+
+    .font_bgdefault {
+        font-size: 32px!important;
+    }
+
+    .font_bgundefault {
+        font-size: 32px!important;
+    }
+
+}
+
+@media screen and (max-width: 1060px){
+    .list {
+        flex-direction: column;
+        height: auto;
+        top: -20px;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .social-block {
+        right: 55px;
+     }
+    .hero-section {
+        margin-top: 20px;
+    }
+    .items:nth-child(1){
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        margin-top: 50px;
+    }
+    .items {
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        text-align: center;
+        margin-right: 0px;
+        padding: 20px 0;
+    }
+    .btn {
+        display: block;
+    }
+    .menu-btn {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .font_bgdefault {
+        font-size: 26px!important;
+    }
+    .navbar_logo {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .font_bgundefault {
+        font-size: 24px!important;
+    }
+
+    .font_general {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .section_title{
+        font-size: 58px;
+        line-height: 58px;
+    }
+
+    .ad-text2 {
+        font-size: 30px;
+    }
+
+    .member_desc {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width:620px) {
+    .top_title {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .font_default {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .font_undefault {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .font_bgdefault {
+        font-size: 30px;
+        line-height: 56px;
+    }
+    .font_bgundefault {
+        font-size: 24px;
+        line-height: 56px;
+    }
+    .font_general {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .member_desc {
+        font-size: 18px;
+    }
+}
+
+.roadmap {
+    width: 100%;
+}
+
+.join-discord-title {
+    font-size: 4vw;
+    color: #46b104;
+}
+
+.discord-bee {
+    width: 80%;
+}
+
+.top_title_num {
+    color: #C1C1C1;
+    font-size: 50px;
+}
+
+.dot_data {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dot {
+    background: #fff;
+    box-shadow: 0px 0px 13px #99969687;
+    padding: 3px 13px;
+    margin-left: -5px;
+    border-radius: 50%;
+    border: solid 5px #46b104;
+    z-index: 99;
+}
+
+.roadmap .top_one .row.position-relative:after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    background: #46b104;
+    box-shadow: 0px 0px 7px #00cfef42;
+    left: 4%;
+    top: 81px;
+    height: 98%;
+    z-index: 0;
+}
+
+.roadmap .top_one .row.position-relative:last-child:after {
+    display: none;
+}
+
+.join-discord {
+    padding: 2% 2% 4% 2%;
+    /* background: url(../images/background4.jpg); */
+    background-size: 100% 100%;
+    margin-top: 120px;
+    
+}
+
+.join-discord-content {
+    margin-top: 20px;
+    color: #e5e5e5;
+    font-size: 2vw;
+}
+
+.join-button {
+    margin-top: 30px;
+    background-color: #46b104;
+    font-size:2.8vw;
+    border: none;
+    padding: 5px 30px;
+    color: #fff;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.join-button:hover {
+    background-color: #204e03;
+    color: #fff;
+    border: 1px solid #46b104;
+}
+
+.team-caption {
+    margin-top: 20px;
+    color: #46b104;
+    font-weight: 900;
+    font-size: 1.8vw;
+}
+
+.team-desc {
+    font-size: 1.3vw;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+}
+
+.common_bg_image {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 85%;
+    z-index: -9;
+}
+
+.meet-section h2 {
+    font-size: 3.8vw;
+    font-weight: bold;
+}
+
+.pr-0 {
+    padding-right: 0px !important;
+}
+
+.meet-section p {
+    font-size: 2.12vw;
+}
+
+.footer-padding {
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+}
+
+.section-qa {
+    background: transparent;
+    margin-top: 20px;
+}
+
+.section-qa .title h2 {
+    font-size: 4.3vw;
+}
+
+.accordion-container {
+    border: #46b104 3px solid;
+    border-radius: 8px;
+}
+
+.accordion {
+    background-color: #000;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.d-inline-block a:hover {
+    color: transparent !important;
+    text-decoration: none !important;
+}
+
+.accordion:after {
+    content: '';
+    background: url(../images/arrow.png) no-repeat;
+    width: 3.5vw;
+    height: 3vw;
+    background-size: cover;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.bingo-col {
+    display: none;
+}
+
+.active:after {
+    content: "";
+    transform: rotate(180deg);
+}
+
+.container-fluid {
+    padding: 10px 30px;
+}
+
+.accordion.active {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.accordion h2 {
+    font-size: 2vw;
+    color: white;
+}
+
+.social_footer_image {
+    height: 3vw;
+    padding: 0 1vw;
+}
+
+.sp {
+    display: none;
+}
+
+h4 {
+    font-size: 2vw;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 90%;
+    object-fit: cover;
+}
+
+.slide-container .mySwiper {
+    padding: 4vw 2vw 2vw 2vw;
+}
+
+.swiper-pagination-bullet {
+    width: 50px;
+    border-radius: 0;
+    height: 5px;
+}
+
+.swiper-pagination-bullet-active {
+    background: black;
+}
+
+.swiper-slide-active img {
+    width: 100%;
+}
+
+.roadmap_round {
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.53);
+    border: solid 3px #46b104;
+    /* background: #04091a; */
+}
+
+.roadmap_font {
+    font-weight: lighter !important;
+}
+
+.nowrap {
+    white-space: nowrap !important;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+@media only screen and (max-width:576px) {
+    .navbar_logo {
+        font-size: 26px;
+        line-height: 26px;
+    }
+
+    .top_title_num {
+        font-size: 15px;
+        line-height: 34px;
+    }
+
+    .top_title {
+        font-size: 21px;
+        /* line-height: 34px; */
+    }
+    .top_data {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .section_title{
+        font-size: 38px;
+        line-height: 38px;
+    }
+
+    .ad-text2 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
+
+.em-image {
+    width: 35%;
+}
+
+.mlp-8 {
+    margin-left: 8% !important;
+}
+
+@media only screen and (max-width:1366px) {
+    .common_title {
+        font-family: 'Rubik';
+        font-size: 84px;
+        line-height: 150px;
+    }
+    
+    .common_title_other {
+        font-family: 'Rubik';
+        font-size: 45px;
+        line-height: 80px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .team-caption {
+        font-size: 3vw;
+        /* margin-bottom: 35px; */
+    }
+    .team-desc {
+        font-size: 1.8vw;
+    }
+    /* .copyright-section {
+        font-size: 3.5vw;
+        margin: 30px 0;
+    } */
+    .common_title {
+        font-size: 56px;
+        line-height: 78px;
+        /* or 167% */
+    }
+    .bingo-col {
+        display: block;
+    }
+    .common_title_other {
+        font-size: 32px;
+        line-height: 78px;
+        /* or 167% */
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .roadmap_right_content {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .team-image {
+        padding: 10%;
+        margin-top: 0!important;
+    }
+
+    .team-block {
+        margin-top: 0!important;
+    }
+
+    .welcome-text-block {
+        margin-top: 30px;
+    }
+
+    .mobile-hero-back {
+        display: block;
+    }
+
+    .character-gif {
+        width: 60%;
+    }
+
+    .game-title {
+        margin-top: 50px;
+        font-size: 8vw;
+    }
+
+    .roadmap-padding {
+        padding-left: 8% !important;
+        padding-right: 8% !important;
+    }
+
+    .website-hero-back {
+        display: none;
+    }
+
+    .discord-bee {
+        margin-top: 30px;
+        width: 50%;
+    }
+
+    .join-discord-title {
+        font-size: 7vw;
+    }
+
+    .join-discord-content {
+        margin-top: 20px;
+        color: #e5e5e5;
+        font-size: 4vw;
+    }
+
+    .join-button {
+        margin-top: 25px;
+        font-size: 5vw;
+    }
+
+    .footer-font {
+        font-size: 22px;
+    }
+
+    .team-image {
+        width: 70%;
+        margin-top: 30px;
+    }
+
+    .team-caption {
+        margin-top: 20px;
+        font-size: 5vw;
+    }
+        
+    .team-desc {
+        font-size: 3vw;
+    }
+
+    .text-block {
+        margin-bottom: 40px;
+    }
+
+    .common_title {
+        font-size: 48px;
+        line-height: 78px;
+    }
+
+    .common_title_other {
+        font-size: 26px;
+        line-height: 50px;
+    }
+    .panel p {
+        font-size: 18px !important;
+        color: white;
+    }
+
+    .ad-text-block {
+        padding-top: 0;
+    }
+
+    .roadmap .top_one .row.position-relative:after {
+        position: absolute;
+        content: "";
+        width: 3px;
+        background: #46b104;
+        left: 8%;
+        top: 60px;
+    }
+    .member-picture {
+        width: 50%;
+    }
+    .dot_data {
+        margin-top: 1px;
+    }
+    .member_name {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .common_title {
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        /* or 167% */
+    }
+
+    .common_title_other {
+        font-size: 24px;
+        line-height: 37px;
+        text-align: center;
+        /* or 167% */
+    }
+    .social-block {
+        right: 31px!important;
+        top: 60px;
+    }
+    .social-icon {
+        margin-right: 15px;
+        font-size: 24px;
+    }
+    .pc {
+        display: none;
+    }
+    .sp {
+        display: block;
+    }
+    h4 {
+        font-size: 6vw;
+    }
+    .meet-section h2 {
+        font-size: 12vw;
+        font-weight: bold;
+    }
+    .meet-section p {
+        font-size: 6vw;
+    }
+    .section-qa .title h2 {
+        font-size: 6.3vw;
+    }
+    .accordion h2 {
+        font-size: 4vw;
+        color: white;
+        margin-bottom: 0;
+    }
+    .accordion:after {
+        content: '';
+        background: url(../images/question_answer/arrow.png) no-repeat;
+        width: 6vw;
+        height: 5vw;
+        background-size: cover;
+        font-weight: bold;
+        float: right;
+        /* margin-left: 5px; */
+    }
+    .social_footer_image {
+        height: 7vw;
+        padding: 0 2vw;
+    }
+    .slide-container .mySwiper {
+        padding: 10vw 4vw;
+    }
+    .swiper-pagination-bullet {
+        width: 30px;
+        border-radius: 0;
+        height: 3px;
+    }
+    .navbar_button p {
+        font-size: 4.5vw;
+        margin-bottom: 0;
+    }
+    .logo-image {
+        width: 100px;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .items {
+        font-size: 20px;
+        padding: 15px 0;
+    }
+    .connect-button {
+        font-size: 14px;
+        padding: 5px 15px;
+        line-height: 25px;
+        top: -30px;
+        right: -5px;
+    }
+    .menu-btn {
+        top:65px;
+        font-size: 24px;
+        right: 15px;
+    }
+}
+

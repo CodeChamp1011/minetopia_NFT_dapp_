@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x9331596F0ceFfc0c4510A6c022992c39e56b92a4",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x9331596F0ceFfc0c4510A6c022992c39e56b92a4",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 4
+  },
+  "NFT_NAME": "Lucky Dragon",
+  "SYMBOL": "LD",
+  "MAX_SUPPLY": 10000,
+  "WEI_COST": 250000000000000000,
+  "DISPLAY_COST": 0.005,
+  "GAS_LIMIT": 3000000,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/lucky-dragon-society",
+  "SHOW_BACKGROUND": true
+}
