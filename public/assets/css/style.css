@@ -76,7 +76,7 @@ a {
 
 .social-block {
     position: absolute;
-    right: 225px;
+    right: 270px;
     top: 65px;
     text-decoration: none;
     color: #46b104!important;
@@ -98,6 +98,10 @@ a {
     width: 200px;
     margin-left: 30px;
     margin-top: 20px;
+}
+
+.crossmintButton-0-2-1 {
+    padding: 4px 0!important;
 }
 
 .pt-30 {
@@ -125,7 +129,7 @@ nav {
     position: relative;
     top: -100px;
     padding-left: 0;
-    margin-left: 30px;
+    margin-left: 0;
 }
 .items {
     margin-right: 20px;
@@ -142,8 +146,8 @@ nav {
     right: 10px;
     top: 7px;
     padding: 5px;
-    color: #000;
     font-size: 18px;
+    outline: none;
 }
 
 .about-section {
@@ -304,13 +308,45 @@ nav {
     display: inline-block;
     transition: all 0.3s;
     z-index: 1;
-    margin-top: 55px;
+    margin-top: 25px;
     margin-right: 15px;
+    width: 255px;
 }
 
 .connect-button:hover {
     background-color: #204e03;
     color: #fff;
+}
+
+.connected-button {
+    background-color: #46b104;
+    color: #fff;  
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    border: 1px solid #46b104!important;
+    border-radius: 50px;
+    font-size: 18px;
+    line-height: 35px;
+    padding: 5px 25px;
+    z-index: 1;
+    margin-top: 25px;
+    margin-right: 15px;
+    width: 255px;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+
+.crossmint {
+    margin-top: 90px;
+    margin-right: 15px;
+    background-color: #9c0bf0;
+    border: 1px solid #9c0bf0!important;
+}
+
+.crossmint:hover {
+    background-color: #630c96;
 }
 
 /* button animation */
@@ -331,11 +367,6 @@ nav {
 
 .navbar_button:hover:before {
     width: 100%;
-}
-
-.btn {
-    border: solid black 1px;
-    outline: none;
 }
 
 .nav_menu {
@@ -586,6 +617,22 @@ nav {
     margin-top: 30px;
 }
 
+@media only screen and (max-width:1415px) {
+    .social-block {
+        right: 57px;
+        top: 131px;
+    }
+    .connect-button {
+        margin-top: 15px;
+    }
+    .connected-button {
+        margin-top: 15px;
+    }
+    .crossmint {
+        margin-top: 75px;
+    }
+}
+
 /* button animation */
 @media only screen and (min-width:1366px) {
     .join-discord-title {
@@ -613,16 +660,6 @@ nav {
 }
 
 @media only screen and (max-width:1366px) {
-    .social-block {
-        position: absolute;
-        right: 35px;
-        top: 131px;
-        text-decoration: none;
-        color: #46b104!important;
-        font-family: headlinefont;
-        font-size: 28px;
-        cursor: pointer;
-    }
     .navbar_logo {
         font-size: 50px;
         line-height: 50px;
@@ -695,7 +732,7 @@ nav {
 
 }
 
-@media screen and (max-width: 1060px){
+@media screen and (max-width: 1110px){
     .list {
         flex-direction: column;
         height: auto;
@@ -704,7 +741,7 @@ nav {
         margin-left: 0;
     }
     .social-block {
-        right: 55px;
+        right: 70px;
      }
     .hero-section {
         margin-top: 20px;
@@ -1282,8 +1319,9 @@ h4 {
         /* or 167% */
     }
     .social-block {
-        right: 31px!important;
-        top: 60px;
+        right: 45px!important;
+        top: 86px;
+        font-size: 15px;
     }
     .social-icon {
         margin-right: 15px;
@@ -1340,25 +1378,41 @@ h4 {
         margin-bottom: 0;
     }
     .logo-image {
-        width: 100px;
-        margin-left: 15px;
+        width: 105px;
+        margin-left: 10px;
         margin-top: 20px;
     }
     .items {
         font-size: 20px;
         padding: 15px 0;
     }
+    .social-icon {
+        margin-right: 15px;
+    }
     .connect-button {
+        padding: 2px 0;
         font-size: 14px;
-        padding: 5px 15px;
+        width: 190px;
         line-height: 25px;
-        top: -30px;
-        right: -5px;
+        margin-top: 0px;
+        margin-right: 5px;
+    }
+    .connected-button {
+        padding: 2px 0;
+        font-size: 14px;
+        width: 190px;
+        line-height: 25px;
+        margin-top: 0px;
+        margin-right: 5px;
+    }
+    .crossmint {
+        margin-top: 40px;
+        margin-right: 5px;
     }
     .menu-btn {
-        top:65px;
+        top: 79px;
         font-size: 24px;
-        right: 15px;
+        right: 21px;
     }
 }
 

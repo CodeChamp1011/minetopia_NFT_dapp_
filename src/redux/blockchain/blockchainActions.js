@@ -1,6 +1,7 @@
 // constants
 import Web3EthContract from "web3-eth-contract";
 import Web3 from "web3";
+import swal  from 'sweetalert';
 // log
 import { fetchData } from "../data/dataActions";
 
@@ -87,7 +88,7 @@ export const connect = () => {
         dispatch(connectFailed("Something went wrong."));
       }
     } else {
-      dispatch(connectFailed("Install Metamask."));
+      swal("Please install Metamask first.", "", "warning");
     }
   };
 };
