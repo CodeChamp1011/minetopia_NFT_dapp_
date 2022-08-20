@@ -1,7 +1,7 @@
 {
-  "name": "coolbeez_NFT_minting_dapp",
+  "name": "minetopia_nft_dapp",
   "version": "1.0.0",
-  "description": "coolbeez minting dapp is a quick and easy way to connect your smart contract and start minting NFTs.",
+  "description": "minetopia nft dapp is a quick and easy way to connect your smart contract and start minting NFTs.",
   "private": true,
   "dependencies": {
     "react": "^17.0.2",
@@ -18,7 +18,8 @@
     "sweetalert": "^2.1.2",
     "web-vitals": "^1.0.1",
     "web3": "^1.5.1",
-    "web3-eth-contract": "^1.5.2"
+    "web3-eth-contract": "^1.5.2",
+    "@crossmint/client-sdk-react-ui": "0.1.8-alpha.0"
   },
   "author": "Malin Zhang",
   "license": "MIT",
