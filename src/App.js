@@ -116,8 +116,8 @@ function App() {
 				<a href="/"><img className="logo-image" src="./assets/images/full_logo.png"/></a>
 				{(toggleMenu || screenWidth > 1110) && (
 					<ul className="list">
-						<li className="items"><a className="nav-item" href="#buy">Home</a></li>
-						<li className="items"><a className="nav-item" href="#buy">Mint</a></li>
+						<li className="items"><a className="nav-item" href="#">Home</a></li>
+						<li className="items"><a className="nav-item" href="#mint">Mint</a></li>
 						{/* <li className="items"><a className="nav-item" href="#buy">Transfer</a></li>
 						<li className="items"><a className="nav-item" href="#buy">Airdrop</a></li> */}
 						<li className="items"><a className="nav-item" href="#roadmap">Roadmap</a></li>
