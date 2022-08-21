@@ -222,7 +222,7 @@ function App() {
 					</div>
 				</section>
 
-				<section className="slide-container main-container" id="NFT">
+				<section className="slide-container main-container" id="mint">
 					<div className="col-12 text-center d-flex justify-content-center wow fadeInUp">
 						<div className="section_title line-height-15">MINETOPIA NFT</div>
 					</div>
