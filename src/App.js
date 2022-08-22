@@ -116,10 +116,10 @@ function App() {
 				<a href="/"><img className="logo-image" src="./assets/images/full_logo.png"/></a>
 				{(toggleMenu || screenWidth > 1110) && (
 					<ul className="list">
-						<li className="items"><a className="nav-item" href="#buy">Home</a></li>
-						<li className="items"><a className="nav-item" href="#buy">Buy</a></li>
-						<li className="items"><a className="nav-item" href="#buy">Transfer</a></li>
-						<li className="items"><a className="nav-item" href="#buy">Airdrop</a></li>
+						<li className="items"><a className="nav-item" href="#">Home</a></li>
+						<li className="items"><a className="nav-item" href="#mint">Mint</a></li>
+						{/* <li className="items"><a className="nav-item" href="#buy">Transfer</a></li>
+						<li className="items"><a className="nav-item" href="#buy">Airdrop</a></li> */}
 						<li className="items"><a className="nav-item" href="#roadmap">Roadmap</a></li>
 						<li className="items">
 							<a className="nav-item" target="_blank" href="https://drive.google.com/file/d/1qFBX18kiXeI9_TlNdKA3jmO6VbSSYve8/view?usp=sharing">Whitepaper</a>
@@ -222,7 +222,7 @@ function App() {
 					</div>
 				</section>
 
-				<section className="slide-container main-container" id="NFT">
+				<section className="slide-container main-container" id="mint">
 					<div className="col-12 text-center d-flex justify-content-center wow fadeInUp">
 						<div className="section_title line-height-15">MINETOPIA NFT</div>
 					</div>
