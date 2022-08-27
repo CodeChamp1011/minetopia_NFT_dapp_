@@ -33,7 +33,7 @@ function App() {
         SHOW_BACKGROUND: false,
 	});
 
-	const LEFT_DAYS_IN_MS = new Date("2022-08-28T12:00:00-02:00").getTime()-new Date().getTime();
+	const LEFT_DAYS_IN_MS = new Date("2022-08-28T12:00:00-01:00").getTime()-new Date().getTime();
 	const NOW_IN_MS = new Date().getTime();
 	const dateTimeAfterThreeDays = NOW_IN_MS + LEFT_DAYS_IN_MS;
 
