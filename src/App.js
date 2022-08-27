@@ -33,23 +33,23 @@ function App() {
         SHOW_BACKGROUND: false,
 	});
 
-	const LEFT_DAYS_IN_MS = new Date("2022-08-27T12:00:00-16:00").getTime()-new Date().getTime();
+	const LEFT_DAYS_IN_MS = new Date("2022-08-28T12:00:00").getTime()-new Date().getTime();
 	const NOW_IN_MS = new Date().getTime();
 	const dateTimeAfterThreeDays = NOW_IN_MS + LEFT_DAYS_IN_MS;
 
     const claimNFTs = () => {
-        let cost = CONFIG.WEI_COST;
+        let cost = data.cost;
         let gasLimit = CONFIG.GAS_LIMIT;
         let totalCostWei = String(cost * mintAmount);
         let totalGasLimit = String(gasLimit * mintAmount);
         setClaimingNft(true);
         blockchain.smartContract.methods
-        .mint()
+        .mint(mintAmount)
         .send({
             gasLimit: String(totalGasLimit),
             to: CONFIG.CONTRACT_ADDRESS,
             from: blockchain.account,
-            value: totalCostWei,
+            value: totalCostWei
         })
         .once("error", (err) => {
             console.log(err);
@@ -66,11 +66,23 @@ function App() {
         });
     };
 
+	const countPlus = () => {
+		if (mintAmount<10) {
+			setMintAmount(mintAmount+1);
+		}
+	}
+
+	const countMinus = () => {
+		if (mintAmount>1) {
+			setMintAmount(mintAmount-1);
+		}
+	}
+
     const getData = () => {
         if (blockchain.account !== "" && blockchain.smartContract !== null) {
         	dispatch(fetchData(blockchain.account));
         }
-		console.log("getdata", getData)
+		console.log("blockchaindata", data)
     };
 
     const getConfig = async () => {
@@ -118,8 +130,8 @@ function App() {
 					<ul className="list">
 						<li className="items"><a className="nav-item" href="#">Home</a></li>
 						<li className="items"><a className="nav-item" href="#mint">Mint</a></li>
-						{/* <li className="items"><a className="nav-item" href="#buy">Transfer</a></li>
-						<li className="items"><a className="nav-item" href="#buy">Airdrop</a></li> */}
+						<li className="items"><a className="nav-item" href="#buy">Transfer</a></li>
+						<li className="items"><a className="nav-item" href="#buy">Airdrop</a></li>
 						<li className="items"><a className="nav-item" href="#roadmap">Roadmap</a></li>
 						<li className="items">
 							<a className="nav-item" target="_blank" href="https://drive.google.com/file/d/1qFBX18kiXeI9_TlNdKA3jmO6VbSSYve8/view?usp=sharing">Whitepaper</a>
@@ -166,11 +178,11 @@ function App() {
 						collectionTitle="MineTopia"
 						collectionDescription="Minetopia presents an opportunity for individuals to enter mining through the utility of Non-fungible Tokens (NFTs)."
 						collectionPhoto=""
-						clientId="d45d7e77-0861-46ad-a65b-c828d6359504"
+						clientId="fd665c5b-40c9-423b-b286-8701bb135f63"
 						environment="staging"
 						mintConfig={{
 							"type":"erc-721",
-							"totalPrice": "0.15",
+							"totalPrice": "0.1",
 							"to":"$CrossmintUserAddress"
 						}}
 					/> 
@@ -230,7 +242,12 @@ function App() {
 						Minetopia is driven to provide a variety of mining opportunities for those who wish to participate through owning a Minetopia NFT. 
 						Participating in a project that utilizes NFTs to give a stake or ownership in a miner’s reward could boost an individual’s portfolio to the next level through sustainable returns driven by community-purchased ASIC miners.
 					</div>
-					<div className="col-md-12 text-center wow zoomInUp my-5">
+					<div className="col-md-12 text-center count-section">
+						<button onClick={countMinus} className="count-btn count-minus">-</button>
+						<span className="mint-amount">{mintAmount}</span>
+						<button onClick={countPlus} className="count-btn">+</button>
+					</div>
+					<div className="col-md-12 text-center wow zoomInUp mint-button-section">
 						<button 
 							className="mint_button mt-3"
 							disabled={claimingNft? 1 : 0}
@@ -240,7 +257,7 @@ function App() {
 								getData();
 							}}
 						>
- 							{claimingNft ? "MINTING..." : "MINT"}						
+ 							{claimingNft ? "MINTING..." : "MINT"}{data.totalSupply>0? <span className="mint-count">({data.totalSupply}/1000)</span>: <span></span>}		
 						</button>
 					</div>
 					<div className="row mx-0 main-container">

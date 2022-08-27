@@ -154,6 +154,40 @@ nav {
     outline: none;
 }
 
+.mint-amount {
+    color: #fff;
+    font-size: 28px;
+}
+
+.count-btn {
+    margin: 0 25px;
+    padding: 5px 15px 10px 15px;
+    font-size: 24px;
+    border: 1px solid #46b104;
+    background-color: #46b104;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.count-minus {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.count-section {
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.mint-button-section {
+    margin-bottom: 50px;
+}
+
+.mint-count {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
 .about-section {
     padding-bottom: 50px;
     /* background: url(../images/background5.jpg); */
