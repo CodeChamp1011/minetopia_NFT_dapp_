@@ -201,7 +201,7 @@ function App() {
 						<div className="col-12 text-center d-flex justify-content-center wow fadeInUp">
 							<span className="section_title line-height-15">WELCOME TO THE MINETOPIA</span>
 						</div>
-						<CountdownTimer targetDate={dateTimeAfterThreeDays} />
+						{/* <CountdownTimer targetDate={dateTimeAfterThreeDays} /> */}
 						<div className="text-justify pt-30 px-5 line-height-15 font_general wow fadeInUp">
 							Minetopia presents an opportunity for individuals to enter mining through the utility of Non-fungible 
 							Tokens (NFTs). The potential mining options will include Bitcoin (BTC), Ethereum Classic (ETC), 
