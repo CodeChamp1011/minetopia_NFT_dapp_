@@ -1280,7 +1280,7 @@ contract minetopia is ERC721Enumerable, Ownable {
 
     using Strings for uint256;
 
-    string public baseTokenURI = "https://ipfs.io/ipfs/QmVGNCPsiuEcPsZmY4jyH5F6cRsfxggsoSg7TgZ7W7myjA/";
+    string public baseTokenURI;
     string public baseExtension = "";
 
     uint256 public maxSupply = 1000;
@@ -1289,7 +1289,7 @@ contract minetopia is ERC721Enumerable, Ownable {
 
     uint256 public mintPrice = 0.17 ether;
 
-    address public wallet = 0x79F6fB78E8d1aCb86684dD7D2cBe5BE653c80625;
+    address public wallet = 0x2307962b8E30aec64B92fe0DAdA7D687498FE0f2;
 
     bytes32 private merkleRoot;
 
@@ -1349,17 +1349,17 @@ contract minetopia is ERC721Enumerable, Ownable {
         return _holders;
     }
 
-    function mint(uint256 _mintCount) public payable onlyNotPaused {
+    function mint(uint256 _mint_count) public payable onlyNotPaused {
         uint256 supply = totalSupply();
         uint256 tokenCount = balanceOf(msg.sender);
 
         require(tokenCount < maxCollection,            string(abi.encodePacked('You can only mint ', maxCollection.toString(), ' cards per wallet')));
-        require(_mintCount <= maxCollection-tokenCount,  string(abi.encodePacked('You can only mint ', maxCollection.toString(), ' cards per wallet')));
-        require(supply + _mintCount <= maxSupply,        'Purchase would exceed max supply of tokens');
-        require(_mintCount > 0,                        'Mint count cannot be 0');
-        require(msg.value >= _mintCount*mintPrice,      'Ether value is too low');
+        require(_mint_count <= maxCollection-tokenCount,  string(abi.encodePacked('You can only mint ', maxCollection.toString(), ' cards per wallet')));
+        require(supply + _mint_count <= maxSupply,        'Purchase would exceed max supply of tokens');
+        require(_mint_count > 0,                        'Mint count cannot be 0');
+        require(msg.value >= _mint_count*mintPrice,      'Ether value is too low');
 
-        for (uint256 i = 1; i <= _mintCount; i++) {
+        for (uint256 i = 1; i <= _mint_count; i++) {
             _safeMint(msg.sender, supply + i);
         }
     }

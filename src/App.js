@@ -33,7 +33,7 @@ function App() {
         SHOW_BACKGROUND: false,
 	});
 
-	const LEFT_DAYS_IN_MS = new Date("2022-08-28T12:00:00-00:00").getTime()-new Date().getTime();
+	const LEFT_DAYS_IN_MS = new Date("2022-09-01T12:00:00-00:00").getTime()-new Date().getTime();
 	const NOW_IN_MS = new Date().getTime();
 	const dateTimeAfterThreeDays = NOW_IN_MS + LEFT_DAYS_IN_MS;
 
@@ -57,7 +57,6 @@ function App() {
             setClaimingNft(false);
         })
         .then((receipt) => {
-            console.log(receipt);
             swal(
             `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`, "", "success"
             );
@@ -82,7 +81,6 @@ function App() {
         if (blockchain.account !== "" && blockchain.smartContract !== null) {
         	dispatch(fetchData(blockchain.account));
         }
-		console.log("blockchaindata", data)
     };
 
     const getConfig = async () => {
@@ -201,7 +199,7 @@ function App() {
 						<div className="col-12 text-center d-flex justify-content-center wow fadeInUp">
 							<span className="section_title line-height-15">WELCOME TO THE MINETOPIA</span>
 						</div>
-						{/* <CountdownTimer targetDate={dateTimeAfterThreeDays} /> */}
+						<CountdownTimer targetDate={dateTimeAfterThreeDays} />
 						<div className="text-justify pt-30 px-5 line-height-15 font_general wow fadeInUp">
 							Minetopia presents an opportunity for individuals to enter mining through the utility of Non-fungible 
 							Tokens (NFTs). The potential mining options will include Bitcoin (BTC), Ethereum Classic (ETC), 
