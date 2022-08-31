@@ -132,7 +132,7 @@ function App() {
 						<li className="items"><a className="nav-item" href="#buy">Airdrop</a></li> */}
 						<li className="items"><a className="nav-item" href="#roadmap">Roadmap</a></li>
 						<li className="items">
-							<a className="nav-item" target="_blank" href="https://drive.google.com/file/d/1qFBX18kiXeI9_TlNdKA3jmO6VbSSYve8/view?usp=sharing">Whitepaper</a>
+							<a className="nav-item" target="_blank" href="https://quantanet.io/minepaper.pdf">Whitepaper</a>
 						</li>
 						<li className="items"><a className="nav-item" href="#team">Team</a></li>
 						<li className="items"><a className="nav-item" href="#faq">Faq</a></li>
@@ -174,14 +174,15 @@ function App() {
 					<CrossmintPayButton
 						className="connect-button crossmint btn"
 						collectionTitle="MineTopia"
-						collectionDescription="Minetopia presents an opportunity for individuals to enter mining through the utility of Non-fungible Tokens (NFTs)."
-						collectionPhoto=""
-						clientId="fd665c5b-40c9-423b-b286-8701bb135f63"
-						environment="staging"
+						collectionDescription="Minetopia presents an opportunity for individuals to enter mining through the utility of Non-fungible Tokens (NFTs). 
+						The potential mining options will include Bitcoin (BTC), Ethereum Classic (ETC), Kadena (KDA), and Litecoin (LTC) with free Dogecoin (DOGE). 
+						As such, the project has found the blockchain to be a perfect form of distribution for mining rewards and achieving community-centric goals. 
+						Minetopia is built with the expertise of well-versed marketers, developers, and designers who desire to work with a community to change the world for the betterment of earnings moving forward."
+						collectionPhoto="https://ipfs.io/ipfs/QmVGNCPsiuEcPsZmY4jyH5F6cRsfxggsoSg7TgZ7W7myjA/"
+						clientId="4a79af24-12f9-4c22-b364-f9ff2d3b3df8"
 						mintConfig={{
 							"type":"erc-721",
-							"totalPrice": "0.1",
-							"to":"$CrossmintUserAddress"
+							"totalPrice": "0.16"
 						}}
 					/> 
 				</div>

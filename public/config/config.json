@@ -1,10 +1,10 @@
 {
-  "CONTRACT_ADDRESS": "0xf722AdA0e27439938388981df32Ea4d0e040bE61",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xf722AdA0e27439938388981df32Ea4d0e040bE61",
+  "CONTRACT_ADDRESS": "0x30ccf3af1152791bb6220c78484a6e08dbe2d1dc",
+  "SCAN_LINK": "https://etherscan.io/address/0x30ccf3af1152791bb6220c78484a6e08dbe2d1dc",
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",
-    "ID": 4
+    "ID": 1
   },
   "NFT_NAME": "MineTopia",
   "SYMBOL": "MT",
