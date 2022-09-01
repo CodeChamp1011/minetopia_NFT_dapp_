@@ -5,8 +5,8 @@ import DateTimeDisplay from './DateTimeDisplay';
 const ExpiredNotice = () => {
     return (
         <div className="expired-notice">
-            <span>Expired!!!</span>
-            <p>Please select a future date and time.</p>
+            <span>Minting is active now.</span>
+            <p>Please connect your wallet and mint MineTopia.</p>
         </div>
     );
 };
