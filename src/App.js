@@ -58,7 +58,7 @@ function App() {
         })
         .then((receipt) => {
             swal(
-            `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`, "", "success"
+            `WOW, the ${CONFIG.NFT_NAME} is yours!`, "", "success"
             );
             setClaimingNft(false);
             dispatch(fetchData(blockchain.account));
