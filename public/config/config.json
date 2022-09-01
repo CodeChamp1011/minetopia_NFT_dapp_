@@ -11,7 +11,7 @@
   "MAX_SUPPLY": 1000,
   "WEI_COST": 150000000000000000,
   "DISPLAY_COST": 0.005,
-  "GAS_LIMIT": 3000000,
+  "GAS_LIMIT": 1000000,
   "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/minetopia-society",
   "SHOW_BACKGROUND": true
