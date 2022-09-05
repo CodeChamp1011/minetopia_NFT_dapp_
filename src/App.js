@@ -132,7 +132,7 @@ function App() {
 						<li className="items"><a className="nav-item" href="#buy">Airdrop</a></li> */}
 						<li className="items"><a className="nav-item" href="#roadmap">Roadmap</a></li>
 						<li className="items">
-							<a className="nav-item" target="_blank" href="https://quantanet.io/minepaper.pdf">Whitepaper</a>
+							<a className="nav-item" target="_blank" href="https://mega.nz/file/ED1F2RYA#oVLKwfNbB9lkxW7ov5eXSQGHm5gVuXhlpxG4vvteY3s">Whitepaper</a>
 						</li>
 						<li className="items"><a className="nav-item" href="#team">Team</a></li>
 						<li className="items"><a className="nav-item" href="#faq">Faq</a></li>
