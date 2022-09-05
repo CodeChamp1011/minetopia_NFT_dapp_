@@ -124,7 +124,7 @@ function App() {
 		<div>
 			<nav> 
 				<a href="/"><img className="logo-image" src="./assets/images/full_logo.png"/></a>
-				{(toggleMenu || screenWidth > 1110) && (
+				{(toggleMenu || screenWidth > 1190) && (
 					<ul className="list">
 						<li className="items"><a className="nav-item" href="#">Home</a></li>
 						<li className="items"><a className="nav-item" href="#mint">Mint</a></li>
@@ -132,7 +132,14 @@ function App() {
 						<li className="items"><a className="nav-item" href="#buy">Airdrop</a></li> */}
 						<li className="items"><a className="nav-item" href="#roadmap">Roadmap</a></li>
 						<li className="items">
-							<a className="nav-item" target="_blank" href="https://quantanet.io/minepaper.pdf">Whitepaper</a>
+							<a className="nav-item" target="_blank" href="https://quantanet.io/minetopia/minepaper.pdf">Whitepaper</a>
+						</li>
+						<li class="nav-item items dropdown">
+							<div class="dropbtn">Audit</div>
+							<div class="dropdown-content">
+								<a className="sub-item" href="https://www.coinscope.co/coin/3-mine/audit" target="_blank"> Report</a>
+								<a className="sub-item" href="https://quantanet.io/minetopia/MinetopiaAuditCertificate.jpg" target="_blank"> Certificate</a>
+							</div>
 						</li>
 						<li className="items"><a className="nav-item" href="#team">Team</a></li>
 						<li className="items"><a className="nav-item" href="#faq">Faq</a></li>
