@@ -132,13 +132,13 @@ function App() {
 						<li className="items"><a className="nav-item" href="#buy">Airdrop</a></li> */}
 						<li className="items"><a className="nav-item" href="#roadmap">Roadmap</a></li>
 						<li className="items">
-							<a className="nav-item" target="_blank" href="https://quantanet.io/minetopia/minepaper.pdf">Whitepaper</a>
+							<a className="nav-item" target="_blank" href="https://mega.nz/file/ED1F2RYA#oVLKwfNbB9lkxW7ov5eXSQGHm5gVuXhlpxG4vvteY3s">Whitepaper</a>
 						</li>
 						<li class="nav-item items dropdown">
 							<div class="dropbtn">Audit</div>
 							<div class="dropdown-content">
 								<a className="sub-item" href="https://www.coinscope.co/coin/3-mine/audit" target="_blank"> Report</a>
-								<a className="sub-item" href="https://quantanet.io/minetopia/MinetopiaAuditCertificate.jpg" target="_blank"> Certificate</a>
+								<a className="sub-item" href="https://mega.nz/file/sDsFWAYA#VIMa9mY4oZKSSCel4nqk7e83o9NYxRwCjzvlHbdl25E" target="_blank"> Certificate</a>
 							</div>
 						</li>
 						<li className="items"><a className="nav-item" href="#team">Team</a></li>
