@@ -138,7 +138,7 @@ function App() {
 							<div class="dropbtn">Audit</div>
 							<div class="dropdown-content">
 								<a className="sub-item" href="https://ipfs.io/ipfs/QmfWZP6reqVkWKNPJsCAKnPMh5Zo4ebVLbXx1z1rQKqDdc" target="_blank"> Report</a>
-								<a className="sub-item" href="https://mega.nz/file/sDsFWAYA#VIMa9mY4oZKSSCel4nqk7e83o9NYxRwCjzvlHbdl25E" target="_blank"> Certificate</a>
+								<a className="sub-item" href="https://ipfs.io/ipfs/QmSQiY8a7Yu6m7fdpGuzVUKrgNL2NtLbPMpEVMQyeQHivB" target="_blank"> Certificate</a>
 							</div>
 						</li>
 						<li className="items"><a className="nav-item" href="#team">Team</a></li>
