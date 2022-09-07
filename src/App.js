@@ -132,12 +132,12 @@ function App() {
 						<li className="items"><a className="nav-item" href="#buy">Airdrop</a></li> */}
 						<li className="items"><a className="nav-item" href="#roadmap">Roadmap</a></li>
 						<li className="items">
-							<a className="nav-item" target="_blank" href="https://mega.nz/file/ED1F2RYA#oVLKwfNbB9lkxW7ov5eXSQGHm5gVuXhlpxG4vvteY3s">Whitepaper</a>
+							<a className="nav-item" target="_blank" href="https://ipfs.io/ipfs/Qma2UanTNZ9pkTScEPuWeHiYoCVprKMwZr3M4TthbeHE75">Whitepaper</a>
 						</li>
 						<li class="nav-item items dropdown">
 							<div class="dropbtn">Audit</div>
 							<div class="dropdown-content">
-								<a className="sub-item" href="https://www.coinscope.co/coin/3-mine/audit" target="_blank"> Report</a>
+								<a className="sub-item" href="https://ipfs.io/ipfs/QmfWZP6reqVkWKNPJsCAKnPMh5Zo4ebVLbXx1z1rQKqDdc" target="_blank"> Report</a>
 								<a className="sub-item" href="https://mega.nz/file/sDsFWAYA#VIMa9mY4oZKSSCel4nqk7e83o9NYxRwCjzvlHbdl25E" target="_blank"> Certificate</a>
 							</div>
 						</li>
