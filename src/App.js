@@ -132,7 +132,7 @@ function App() {
 						<li className="items"><a className="nav-item" href="#buy">Airdrop</a></li> */}
 						<li className="items"><a className="nav-item" href="#roadmap">Roadmap</a></li>
 						<li className="items">
-							<a className="nav-item" target="_blank" href="https://ipfs.io/ipfs/Qma2UanTNZ9pkTScEPuWeHiYoCVprKMwZr3M4TthbeHE75">Whitepaper</a>
+							<a className="nav-item" target="_blank" href="https://www.dropbox.com/s/orxma9gutv1832n/Minetopia%20Whitepaper.pdf?dl=0">Whitepaper</a>
 						</li>
 						<li class="nav-item items dropdown">
 							<div class="dropbtn">Audit</div>
