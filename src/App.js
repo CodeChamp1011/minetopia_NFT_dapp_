@@ -178,7 +178,9 @@ function App() {
 					}
 				</div>
 				<div className="navbar-right">
-					<CrossmintPayButton
+					<
+					
+					PayButton
 						className="connect-button crossmint btn"
 						collectionTitle="MineTopia"
 						collectionDescription="Minetopia presents an opportunity for individuals to enter mining through the utility of Non-fungible Tokens (NFTs). 
@@ -189,7 +191,7 @@ function App() {
 						clientId="4a79af24-12f9-4c22-b364-f9ff2d3b3df8"
 						mintConfig={{
 							"type":"erc-721",
-							"totalPrice": "0.16"
+							"totalPrice": "0.152"
 						}}
 					/> 
 				</div>
