@@ -178,9 +178,7 @@ function App() {
 					}
 				</div>
 				<div className="navbar-right">
-					<
-					
-					PayButton
+					<CrossmintPayButton
 						className="connect-button crossmint btn"
 						collectionTitle="MineTopia"
 						collectionDescription="Minetopia presents an opportunity for individuals to enter mining through the utility of Non-fungible Tokens (NFTs). 
