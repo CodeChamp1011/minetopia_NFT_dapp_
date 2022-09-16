@@ -653,8 +653,8 @@ function App() {
 					Copyright <i className="far fa-copyright"></i> 2022 All Rights Reserved by Minetopia.
 				</div>
 				<div className="text-center my-3">
-					<a className="sub-item mr-3" href="https://docs.google.com/document/d/1wCSejBkO7ZZPKPl04R5eKdI3Twg4DKBNFpEhSKs6M58/edit?usp=sharing" target="_blank"> Minetopia Privacy</a>
-					<a className="sub-item" href="https://docs.google.com/document/d/19inHUS8M7D7wLo7jrkPt0ITxu1JsZOriuPd-KDaYCZU/edit?usp=sharing" target="_blank"> Minetopia T&C</a>
+					<a className="sub-item mr-3" href="" target="_blank"> Minetopia Privacy</a>
+					<a className="sub-item" href="" target="_blank"> Minetopia T&C</a>
 				</div>
 				{/* <div className="col-lg-2 col-md-12 text-center content-center">
 					<a href="https://twitter.com/nft_minetopia" target="_blank">
