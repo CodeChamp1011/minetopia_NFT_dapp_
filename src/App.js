@@ -146,7 +146,7 @@ function App() {
 					</ul>
 				)}
 				<div className="social-block">
-					<a href="https://twitter.com/nft_minetopia" target="_blank">
+					<a href="https://twitter.com/MinetopiaNFT" target="_blank">
 						<i className="fab fa-twitter social-icon"></i>
 					</a>
 					<a href="https://www.youtube.com/" target="_blank">
@@ -657,7 +657,7 @@ function App() {
 					<a className="sub-item" href="" target="_blank"> Minetopia T&C</a>
 				</div>
 				{/* <div className="col-lg-2 col-md-12 text-center content-center">
-					<a href="https://twitter.com/nft_minetopia" target="_blank">
+					<a href="https://twitter.com/MinetopiaNFT" target="_blank">
 						<i className="fab fa-twitter social-icon"></i>
 					</a>
 					<a href="https://www.youtube.com/" target="_blank">
