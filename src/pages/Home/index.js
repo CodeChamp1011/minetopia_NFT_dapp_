@@ -228,6 +228,7 @@ function Home() {
         <div className="navbar-right">
           <CrossmintPayButton
             className="connect-button crossmint btn"
+            style={{ padding: "1px" }}
             collectionTitle="MineTopia"
             collectionDescription="Minetopia presents an opportunity for individuals to enter mining through the utility of Non-fungible Tokens (NFTs). 
 						The potential mining options will include Bitcoin (BTC), Ethereum Classic (ETC), Kadena (KDA), and Litecoin (LTC) with free Dogecoin (DOGE). 
