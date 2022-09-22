@@ -1,6 +1,6 @@
 import { Grid } from "@material-ui/core";
 import { useState } from "react";
-import GenerateSeoTags from "../../components/GenerateSeoTags";
+import GenerateSeoTags from "../../component/GenerateSeoTags";
 import DisplayQuestion from "../../units/displayQuestion";
 import Head from "../../units/Heading";
 import SideBar from "../../units/SideBar";
