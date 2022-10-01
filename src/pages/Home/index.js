@@ -571,7 +571,7 @@ function Home() {
                   <div className='my-2'>CCO</div>
                   <div className='my-2'>Chief Commercial Officer</div>
                   <div className='twitter'>Twitter</div>
-                  <a className='color-white' target='_blank' href='https://twitter.com/Dxniel.ETH'>
+                  <a className='color-white' target='_blank' href='https://twitter.com/DxnielETH'>
                     @Dxniel.ETH
                   </a>
                 </div>
