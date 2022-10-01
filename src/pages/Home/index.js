@@ -557,7 +557,7 @@ function Home() {
                 <div className='team-desc'>
                   <div className='my-2'>CEO</div>
                   <div className='twitter'>Twitter</div>
-                  <a className='color-white' target='_blank' href=''>
+                  <a className='color-white' target='_blank' href='https://twitter.com/WestieIO'>
                     @Westieio
                   </a>
                 </div>
@@ -571,7 +571,7 @@ function Home() {
                   <div className='my-2'>CCO</div>
                   <div className='my-2'>Chief Commercial Officer</div>
                   <div className='twitter'>Twitter</div>
-                  <a className='color-white' target='_blank' href=''>
+                  <a className='color-white' target='_blank' href='https://twitter.com/Dxniel.ETH'>
                     @Dxniel.ETH
                   </a>
                 </div>
@@ -602,7 +602,7 @@ function Home() {
                   <div className='my-2'>CMO</div>
                   <div className='my-2'>Chief Marketing Officer</div>
                   <div className='twitter'>Twitter</div>
-                  <a className='color-white' target='_blank' href=''>
+                  <a className='color-white' target='_blank' href='https://twitter.com/OnlyEyes4Crypto'>
                     @OnlyEyes4Crypto
                   </a>
                 </div>
