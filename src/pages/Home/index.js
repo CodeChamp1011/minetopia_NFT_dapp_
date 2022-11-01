@@ -203,7 +203,7 @@ function Home() {
           <a href='https://www.youtube.com/' target='_blank'>
             <i className='fab fa-youtube social-icon'></i>
           </a>
-          <a href='https://discord.gg/bJ9Z87dFDp' target='_blank'>
+          <a href='https://discord.gg/TKM6kgAkXN' target='_blank'>
             <i className='fab fa-discord social-icon'></i>
           </a>
         </div>
