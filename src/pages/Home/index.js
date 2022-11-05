@@ -242,7 +242,7 @@ function Home() {
             clientId='4a79af24-12f9-4c22-b364-f9ff2d3b3df8'
             mintConfig={{
               type: "erc-721",
-              totalPrice: "0.166",
+              totalPrice: "0.154",
             }}
           />
         </div>
