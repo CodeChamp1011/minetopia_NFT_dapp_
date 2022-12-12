@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import PdfWhitepaper from "../../assests/docs/Minetopia_Whitepaper.pdf";
 import PdfReport from "../../assests/docs/Report.pdf";
 import Certificate from "../../assests/certificate.jpeg";
-
+import logo from "../../assests/logo.png";
 function Home() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
@@ -133,7 +133,7 @@ function Home() {
     <div>
       <nav>
         <a href='/'>
-          <img className='logo-image' src='./assets/images/full_logo.png' />
+          <img className='logo-image' src={logo} />
         </a>
         {(toggleMenu || screenWidth > 1190) && (
           <ul className='list'>
