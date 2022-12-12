@@ -132,9 +132,9 @@ function Home() {
   return (
     <div>
       <nav>
-        <a href='/'>
+        <Link href='/'>
           <img className='logo-image' src={logo} />
-        </a>
+        </Link>
         {(toggleMenu || screenWidth > 1190) && (
           <ul className='list'>
             <li className='items'>
