@@ -76,8 +76,8 @@ a {
 
 .social-block {
     position: absolute;
-    right: 270px;
-    top: 65px;
+    right: 80px;
+    top: 140px;
     text-decoration: none;
     color: #46b104!important;
     font-family: headlinefont;
@@ -95,10 +95,11 @@ a {
 }
 
 .logo-image {
-    width: 200px;
+    width: 240px;
     margin-left: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding:2.5em 0em;
 }
 
 .countdown-link {
@@ -808,7 +809,7 @@ nav {
 
 }
 
-@media screen and (max-width: 1190px){
+@media screen and (max-width: 1320px){
     .dropdown-content {
         position: static;
     }
@@ -1461,9 +1462,10 @@ h4 {
         margin-bottom: 0;
     }
     .logo-image {
-        width: 105px;
+        width: 180px;
         margin-left: 10px;
         margin-top: 20px;
+        padding:1em 0em;
     }
     .items {
         font-size: 20px;

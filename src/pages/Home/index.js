@@ -133,9 +133,9 @@ function Home() {
     <div>
       <nav>
         <a href='/'>
-          <img className='logo-image' src='./assets/images/full_logo.png' />
+          <img className='logo-image' src='./assets/images/logo.png' />
         </a>
-        {(toggleMenu || screenWidth > 1190) && (
+        {(toggleMenu || screenWidth > 1320) && (
           <ul className='list'>
             <li className='items'>
               <a className='nav-item' href='#'>
@@ -145,6 +145,11 @@ function Home() {
             <li className='items'>
               <a className='nav-item' href='#mint'>
                 Mint
+              </a>
+            </li>
+            <li className='items'>
+              <a className='nav-item' href='https://dapp.minetopia.io' target="_blank">
+                Dashboard
               </a>
             </li>
             {/* <li className="items"><a className="nav-item" href="#buy">Transfer</a></li>
@@ -194,15 +199,16 @@ function Home() {
                 Faq
               </a>
             </li>
+          
           </ul>
         )}
         <div className='social-block'>
           <a href='https://twitter.com/MinetopiaNFT' target='_blank'>
             <i className='fab fa-twitter social-icon'></i>
           </a>
-          <a href='https://www.youtube.com/' target='_blank'>
+          {/* <a href='https://www.youtube.com/' target='_blank'>
             <i className='fab fa-youtube social-icon'></i>
-          </a>
+          </a> */}
           <a href='https://discord.gg/TKM6kgAkXN' target='_blank'>
             <i className='fab fa-discord social-icon'></i>
           </a>
